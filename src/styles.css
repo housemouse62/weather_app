@@ -1,0 +1,26 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #aeeee0;
+  background: -webkit-linear-gradient(
+    113deg,
+    rgba(174, 238, 224, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    113deg,
+    rgba(174, 238, 224, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: linear-gradient(
+    113deg,
+    rgba(174, 238, 224, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#AEEEE0", endColorstr="#94BBE9", GradientType=0);
+}
+
+.mainContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 15% 85%;
+}

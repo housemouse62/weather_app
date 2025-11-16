@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.searchDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchDisplay {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: end;
+}
+
+.inputBG {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px 0 0 25px;
+}
+
+.searchInput {
+  border: none;
+  height: 50px;
+  width: 350px;
+  border-radius: 25px 0 0 25px;
+  padding-left: 30px;
+  background: transparent;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.buttonBG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 90px;
+  height: 50px;
+  border-left: 1px solid rgba(148, 187, 233, 0.5);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0 25px 25px 0;
+}
+
+.searchButton {
+  border-radius: 25px;
+  width: 90px;
+  height: 40px;
+  border: none;
+  background: transparent;
+}
